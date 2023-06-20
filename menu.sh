@@ -2,24 +2,24 @@
 red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
-PURPLE='\033[0;35m'
-
+PURPLE='\033[0;35m'               \e[$number (•5)\e[m \e[$below OPENSSH & OPENVPN\e[m
+                                   echo -e   "  \e[$number (•5)\e[m \e[$below OPENSSH & OPENVPN\e[m" 
 clear
 echo -e ""
 echo -e "=============================-Menu-============================="
 echo -e "${green}      PREMIUM VPS SCRIPT BY AKUBUDAKGERIK${NC}"
 echo -e ""
 echo -e "${green}=========================-SSH & OpenVPN-========================${NC}"
-echo -e "$PURPLE •1 $NC     : ${green}Create SSH & OpenVPN Account${NC}"
-echo -e "$PURPLE •2 $NC     : ${green}Generate SSH & OpenVPN Trial Account${NC}"
-echo -e "$PURPLE •3 $NC     : ${green}Extending SSH & OpenVPN Account Active Life${NC}"
-echo -e "$PURPLE •4 $NC     : ${green}Delete SSH & OpenVPN Account${NC}"
-echo -e "$PURPLE •5 $NC     : ${green}Check User Login SSH & OpenVPN${NC}"
-echo -e "$PURPLE •6 $NC     : ${green}Daftar Member SSH & OpenVPN${NC}"
-echo -e "$PURPLE •7 $NC     : ${green}Delete User Expired SSH & OpenVPN${NC}"
-echo -e "$PURPLE •8 $NC     : ${green}Set up Autokill SSH${NC}"
-echo -e "$PURPLE •9 $NC     : ${green}Displays Users Who Do Multi Login SSH${NC}"
-echo -e "$PURPLE 10 $NC     : ${green}Restart Service Dropbear, Squid3, OpenVPN dan SSH${NC}"
+echo -e "   $PURPLE \e[$number (•1)\e[m \e[$below $NC: ${green}Create SSH & OpenVPN Account\e[m ${NC}"
+echo -e "   $PURPLE \e[$number (•2) \e[m \e[$below $NC: ${green}Generate SSH & OpenVPN Trial Account\e[m ${NC}"
+echo -e "           \e[$number (•3)\e[m \e[$below $NC : ${green}Extending SSH & OpenVPN Account Active Life\e[m ${NC}"
+echo -e "               $red •4 $NC: ${green}Delete SSH & OpenVPN Account${NC}"
+echo -e "               $red •5 $NC: ${green}Check User Login SSH & OpenVPN${NC}"
+echo -e "               $red •6 $NC: ${green}Daftar Member SSH & OpenVPN${NC}"
+echo -e "               $PURPLE •7 $NC: ${red}Delete User Expired SSH & OpenVPN${NC}"
+echo -e "               $PURPLE •8 $NC: ${red}Set up Autokill SSH${NC}"
+echo -e "               $PURPLE •9 $NC: ${green}Displays Users Who Do Multi Login SSH${NC}"
+echo -e "               $PURPLE 10 $NC: ${green}Restart Service Dropbear, Squid3, OpenVPN dan SSH${NC}"
 echo -e ""
 echo -e "${green}===========================-Wireguard-=========================${NC}"
 echo -e "* add-wg       : Create Wireguard Account"
